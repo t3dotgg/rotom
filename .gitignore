@@ -12,3 +12,9 @@ web-build/
 
 # macOS
 .DS_Store
+
+## More
+.next
+.turbo
+.env
+.cache

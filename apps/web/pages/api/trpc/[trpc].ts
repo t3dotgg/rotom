@@ -2,7 +2,7 @@
  * This file contains tRPC's HTTP response handler
  */
 import * as trpcNext from "@trpc/server/adapters/next";
-import { appRouter, createContext } from "ui";
+import { appRouter, createContext } from "rotom-server";
 
 export default trpcNext.createNextApiHandler({
   router: appRouter,

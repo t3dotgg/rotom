@@ -10,7 +10,6 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
-    "@rotom/trpc-server": "*",
     "@trpc/client": "^9.16.0",
     "@trpc/next": "^9.16.0",
     "@trpc/server": "^9.16.0",
@@ -18,7 +17,7 @@
     "next-transpile-modules": "9.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "ui": "*"
+    "rotom-server": "*"
   },
   "devDependencies": {
     "@types/react": "17.0.37",
