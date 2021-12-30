@@ -1,0 +1,4 @@
+$ tsup src/index.tsx --format esm,cjs --watch --dts --external react
+info Visit https://yarnpkg.com/en/docs/cli/run for documentation about this command.
+Cannot find src/index.tsx
+error Command failed with exit code 1.

@@ -10,17 +10,21 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf .next"
   },
   "dependencies": {
+    "@rotom/trpc-server": "*",
+    "@trpc/client": "^9.16.0",
+    "@trpc/next": "^9.16.0",
+    "@trpc/server": "^9.16.0",
     "next": "12.0.3",
+    "next-transpile-modules": "9.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "ui": "*",
-    "next-transpile-modules": "9.0.0"
+    "ui": "*"
   },
   "devDependencies": {
+    "@types/react": "17.0.37",
     "config": "*",
     "eslint": "7.32.0",
     "tsconfig": "*",
-    "@types/react": "17.0.37",
     "typescript": "4.5.2"
   }
 }

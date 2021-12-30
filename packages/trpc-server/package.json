@@ -1,0 +1,22 @@
+{
+  "name": "@rotom/trpc-server",
+  "version": "0.0.1",
+  "author": "KATT",
+  "license": "MIT",
+  "private": true,
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
+    "lint": "TIMING=1 eslint src --fix",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
+  },
+  "dependencies": {
+    "@trpc/server": "^9.6.0",
+    "superjson": "^1.8.0",
+    "zod": "^3.11.6"
+  },
+  "devDependencies": {}
+}
