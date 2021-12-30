@@ -15,6 +15,9 @@ export const postRouter = createRouter()
   })
   .query("hi", {
     async resolve() {
-      return { message: "test message" };
+      return {
+        message:
+          "testing fetching a typesafe message from the server with tRPC",
+      };
     },
   });
